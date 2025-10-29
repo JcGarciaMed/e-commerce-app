@@ -5,7 +5,6 @@ import com.greymatter.customer.dto.CustomerResponse;
 import com.greymatter.customer.exception.CustomerNotFoundException;
 import com.greymatter.customer.mapper.CustomerMapper;
 import com.greymatter.customer.repository.CustomerRepository;
-import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

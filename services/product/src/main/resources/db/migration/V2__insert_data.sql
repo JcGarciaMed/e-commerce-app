@@ -1,5 +1,9 @@
 -- Assuming you already have a sequence named 'product_seq'
-
+INSERT INTO category (id, description, name) VALUES (nextval('category_seq'), 'Computer Keyboards', 'Keyboards');
+INSERT INTO category (id, description, name) VALUES (nextval('category_seq'), 'Computer Monitors', 'Monitors');
+INSERT INTO category (id, description, name) VALUES (nextval('category_seq'), 'Display Screens', 'Screens');
+INSERT INTO category (id, description, name) VALUES (nextval('category_seq'), 'Computer Mice', 'Mice');
+INSERT INTO category (id, description, name) VALUES (nextval('category_seq'), 'Computer Accessories', 'Accessories');
 -- Insert products for the 'Keyboards' category
 INSERT INTO public.product (id, available_quantity, description, name, price, category_id)
 VALUES
